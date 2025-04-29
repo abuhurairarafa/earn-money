@@ -3,15 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>rafa - Eaytrn by Completing Tasks</title>
+  <title>TaskZone - Earn by Completing Tasks</title>
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #f2f2f2, #e0e0ff);
+      color: #333;
+    }
+    header {
+      background-color: #4b3ff2;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .task {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .task h3 {
+      margin-top: 0;
+    }
+    .submit-btn {
+      display: inline-block;
+      background-color: #4b3ff2;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .submit-btn:hover {
+      background-color: #372bd1;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Welcome to TaskZone</h1>
+    <p>Complete simple tasks and earn rewards!</p>
+  </header>
+
+  <div class="container">
+    <h2>Available Tasks</h2>
+
+    <div class="task">
+      <h3>✅ Visit a Website</h3>
+      <p>Click and visit the partner website for 30 seconds.</p>
+    </div>
+
+    <div class="task">
+      <h3>📷 Upload a Screenshot</h3>
+      <p>Take a screenshot of your YouTube comment and upload it.</p>
+    </div>
+
+    <div class="task">
+      <h3>📱 Follow a Social Page</h3>
+      <p>Follow our Facebook page and like 3 posts.</p>
+    </div>
 
     <a href="submit.html" class="submit-btn">Submit Your Task</a>
   </div>
 
   <footer>
-    &copy; 2025 Rafa. All rights reserved.
+    &copy; 2025 TaskZone. All rights reserved.
   </footer>
 
 </body>
